@@ -1,0 +1,116 @@
+/* ============================================================
+   THE CINEPHILE VAULT — CSS Custom Properties & Design Tokens
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=IM+Fell+English:ital@0;1&family=Cinzel:wght@400;600;700;900&family=Cinzel+Decorative:wght@400;700&display=swap');
+
+:root {
+  /* ─── Core Background Palette ─── */
+  --bg-void:          #0a0a0a;
+  --bg-deep:          #0d0d0d;
+  --bg-base:          #111111;
+  --bg-elevated:      #181818;
+  --bg-surface:       #1e1e1e;
+  --bg-overlay:       #242424;
+  --bg-glass:         rgba(20, 18, 14, 0.85);
+  --bg-glass-light:   rgba(30, 27, 20, 0.70);
+
+  /* ─── Gold & Amber Accent Palette ─── */
+  --gold-pure:        #c9a84c;
+  --gold-bright:      #e8c96a;
+  --gold-warm:        #d4890a;
+  --gold-muted:       #9a7a3a;
+  --gold-dim:         #6b5520;
+  --gold-dust:        #f0d080;
+  --amber:            #d4890a;
+  --amber-glow:       rgba(212, 137, 10, 0.35);
+  --amber-soft:       rgba(201, 168, 76, 0.15);
+  --platinum:         #e8e8e8;
+  --bronze:           #8c6a3a;
+  --mahogany:         #3d1f10;
+
+  /* ─── Text Palette ─── */
+  --text-ivory:       #f5f0e8;
+  --text-warm:        #ede5d0;
+  --text-muted:       #a09070;
+  --text-dim:         #6a5c48;
+  --text-ghost:       #3a3228;
+  --text-gold:        var(--gold-pure);
+  --text-platinum:    #d8d0c0;
+
+  /* ─── Status & Semantic ─── */
+  --error:            #c0392b;
+  --success:          #7c9c5a;
+  --warning:          var(--gold-warm);
+
+  /* ─── Typography ─── */
+  --font-display:     'Cinzel', 'Playfair Display', Georgia, serif;
+  --font-decorative:  'Cinzel Decorative', 'Playfair Display', serif;
+  --font-serif:       'Playfair Display', Georgia, serif;
+  --font-body:        'Cormorant Garamond', Georgia, serif;
+  --font-quill:       'IM Fell English', Georgia, serif;
+  --font-mono:        'Courier New', monospace;
+
+  /* ─── Font Sizes ─── */
+  --fs-xs:    0.65rem;
+  --fs-sm:    0.8rem;
+  --fs-base:  1rem;
+  --fs-md:    1.125rem;
+  --fs-lg:    1.35rem;
+  --fs-xl:    1.65rem;
+  --fs-2xl:   2rem;
+  --fs-3xl:   2.75rem;
+  --fs-4xl:   3.5rem;
+  --fs-5xl:   4.5rem;
+  --fs-hero:  6rem;
+
+  /* ─── Spacing ─── */
+  --sp-1:   4px;
+  --sp-2:   8px;
+  --sp-3:   12px;
+  --sp-4:   16px;
+  --sp-5:   20px;
+  --sp-6:   24px;
+  --sp-8:   32px;
+  --sp-10:  40px;
+  --sp-12:  48px;
+  --sp-16:  64px;
+  --sp-20:  80px;
+  --sp-24:  96px;
+
+  /* ─── Border Radius ─── */
+  --radius-sm:    4px;
+  --radius-md:    8px;
+  --radius-lg:    16px;
+  --radius-xl:    24px;
+  --radius-full:  9999px;
+
+  /* ─── Borders ─── */
+  --border-gold:      1px solid var(--gold-muted);
+  --border-gold-soft: 1px solid rgba(201, 168, 76, 0.25);
+  --border-gold-glow: 1px solid rgba(201, 168, 76, 0.5);
+  --border-dark:      1px solid rgba(255,255,255,0.06);
+
+  /* ─── Shadows ─── */
+  --shadow-gold:      0 0 20px rgba(201, 168, 76, 0.2), 0 0 60px rgba(201, 168, 76, 0.08);
+  --shadow-gold-lg:   0 0 40px rgba(201, 168, 76, 0.3), 0 0 100px rgba(201, 168, 76, 0.12);
+  --shadow-deep:      0 8px 32px rgba(0,0,0,0.7), 0 2px 8px rgba(0,0,0,0.5);
+  --shadow-card:      0 4px 24px rgba(0,0,0,0.6), 0 1px 4px rgba(0,0,0,0.4);
+  --shadow-inset:     inset 0 1px 0 rgba(255,255,255,0.04);
+
+  /* ─── Transitions ─── */
+  --transition-fast:    all 0.15s ease;
+  --transition-base:    all 0.3s ease;
+  --transition-slow:    all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --transition-luxury:  all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* ─── Z-index Scale ─── */
+  --z-base:       1;
+  --z-card:       10;
+  --z-dropdown:   100;
+  --z-sticky:     200;
+  --z-modal:      500;
+  --z-overlay:    800;
+  --z-toast:      900;
+  --z-supreme:    1000;
+}
